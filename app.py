@@ -976,9 +976,5 @@ def delete_account():
         print(e)
         return redirect(url_for('profile_page'))
 
-        
-
-if __name__ == '__main__':
-    app.run()
 
 
